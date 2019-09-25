@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Detalhes do Pedido</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-card>
+  <ion-title>Nº do Pedido: 0002</ion-title>
+  <div>
+  <ion-button size="large" expand="block">Iniciar Rota</ion-button>
+</div>
+  <ion-card-content>
+    <p>PEDIDO Nº 0001</p>
+    <p>NOME: Fulano de Tal</p>
+    <p>TELEFONE: (68) 99912-3456</p>
+    <p>ENEDEREÇO: Rua União, 180</p>
+    <p>BAIRRO: Vila da Baixada - 699</p>
+  </ion-card-content>
+  <ion-card-content>
+    <p>PPRODUTOS:</p>
+    <p>1kg Banana Prata.... 3,00</p>
+    <p>2 Maço Couve........ 5,00</p>
+    <p>3kg Mamão........... 12,00</p>
+    <p>Total............... 20,00</p>
+  </ion-card-content>
+  <ion-card-content>
+      
+    <ion-item>
+        <ion-label>Status do Pedido</ion-label>
+      <ion-select interface="popover">
+        <ion-select-option value="sep">Em separação</ion-select-option>
+        <ion-select-option value="cam">A caminho</ion-select-option>
+        <ion-select-option value="fin">FInalizado</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-card-content>
+  <ion-card-content>
+    <ion-icon name="camera" size="large"></ion-icon>
+    Capturar Entrega
+  </ion-card-content>
+</ion-card>
+</ion-content>

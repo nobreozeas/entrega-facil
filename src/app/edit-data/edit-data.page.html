@@ -1,0 +1,29 @@
+
+<ion-content>
+<h3>Edite os seus dados aqui</h3>
+
+<ion-item>
+  <ion-icon name="contact"></ion-icon>
+  <ion-text>Dados para acesso</ion-text>
+</ion-item>
+<ion-content>
+  <ion-item><ion-input type="text" placeholder="Email"></ion-input></ion-item>
+  <ion-item><ion-input type="text" placeholder="Alterar senha"></ion-input></ion-item>
+  <ion-select interface="popover" placeholder="Sexo" [(ngModel)]="sexo">
+  <ion-select-option value="Masculino">Masculino</ion-select-option>
+  <ion-select-option value="Feminino" >Feminino</ion-select-option>
+  </ion-select>
+  <ion-datetime displayFormat="D/MM/YYYY" placeholder="Data de Nascimento" name="nascimento" [(ngModel)]="nascimento"></ion-datetime>
+  <ion-item><ion-input type="text" placeholder="Telefone"></ion-input></ion-item>
+  <ion-item><ion-input type="text" placeholder="Endereço"></ion-input></ion-item>
+  <ion-item><ion-input type="text" placeholder="Número"></ion-input></ion-item>
+  <ion-item><ion-input type="text" placeholder="Bairro"></ion-input></ion-item>
+  <ion-item><ion-input type="text" placeholder="Cidade"></ion-input></ion-item>
+  <ion-select interface="popover" placeholder="UF">
+    <ion-select-option value="sep">AC</ion-select-option>
+    <ion-select-option value="cam">AL</ion-select-option>
+    <ion-select-option value="fin">AM</ion-select-option>
+  </ion-select>
+  <ion-button size="large" expand="block" >Atualizar</ion-button>
+</ion-content>
+</ion-content>
