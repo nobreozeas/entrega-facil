@@ -17,7 +17,9 @@ export class ListPage implements OnInit {
     'american-football',
     'boat',
     'bluetooth',
-    'build'
+    'build',
+    'contact',
+    'eye'
   ];
   public items: Array<{ title: string; note: string; icon: string }> = [];
   constructor() {

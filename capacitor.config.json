@@ -1,0 +1,7 @@
+{
+  "appId": "com.entrega.app",
+  "appName": "entrega-facil",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}

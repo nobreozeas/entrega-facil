@@ -8,7 +8,7 @@
 <ion-card>
   <ion-title>Nº do Pedido: 0002</ion-title>
   <div>
-  <ion-button size="large" expand="block">Iniciar Rota</ion-button>
+  <ion-button size="large" expand="block" routerLink='/mapa'>Iniciar Rota</ion-button>
 </div>
   <ion-card-content>
     <p>PEDIDO Nº 0001</p>
@@ -36,8 +36,8 @@
     </ion-item>
   </ion-card-content>
   <ion-card-content>
-    <ion-icon name="camera" size="large"></ion-icon>
-    Capturar Entrega
+    <img [src]="image">
+    <button ion-button (click)="takePhoto()">Capturar!!</button>
   </ion-card-content>
 </ion-card>
 </ion-content>
